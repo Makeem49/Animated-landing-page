@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Heebo', sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url(/static/images/water.jpg);
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#logo{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.big-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-family:'Lobster', cursive;
+    font-size: 5rem;
+    color: rgb(61,61,61);
+}
+
+.intro{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    color: grey;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+}
+
+.slider{
+    background-color: rgb(236, 231, 231);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.hide {
+    background: black;
+    overflow:hidden ;
+}
+
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
+ main {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main section#about {
+    position: relative;
+    width: 50%;
+    height: inherit;
+    background-color: cornflowerblue;
+}
+
+section#image {
+    position: relative;
+    width: 50%;
+    height: inherit;
+    background-color: crimson;
+}
+
+section#image .img {
+    position: relative;
+    width: 100%;
+}
+
+#experience{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(73, 69, 69, 0.842);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#experience h3 {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.tools {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    line-height: 1.5;
+    color: white;
+}
+
+.tools p {
+    font-size: 15px;
+    color: black;
+}
+
+#icon {
+    color: #e27979ce;
+    font-size: 40px;
+}
+
+#work {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(78, 122, 82);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#work h3 {
+    padding-top: 10px;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#work .project h1{
+    padding-top: 30px;
+} 
+
+#work .project .list-icon {
+    padding-top: 20px;
+}
+
+#work .project .list-icon i {
+    padding-left: 10px;
+}
+
+
+
+.project-description{
+    width: 50%;
+    height: 300px;
+    background-color: greenyellow;
+}
+
+.project-image {
+    width: 50%;
+    height: 300px;
+    background-color: red;
+}
+
+#cta {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(42, 27, 56);
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+} 
